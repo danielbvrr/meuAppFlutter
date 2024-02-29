@@ -13,21 +13,21 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Meu Primeiro Flutter',
       theme: ThemeData(
-        // This is the theme of your application.
+        // Este é o tema da sua aplicação.
         //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a purple toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
+        // TENTE ISTO: Tente executar sua aplicação com "flutter run". Você vai ver
+        // a aplicação possui uma barra de ferramentas roxa. Então, sem sair do aplicativo,
+        //tente alterar seedColor no colorScheme abaixo para Colors.green
+        // e então invocar "hot reload" (salve suas alterações ou pressione o botão "hot
+        // recarregar" em um IDE compatível com Flutter ou pressione "r" se você usou
+        //a linha de comando para iniciar o aplicativo).
         //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
+        // Observe que o contador não foi zerado; a aplicação
+        // o estado não é perdido durante a recarga. Para redefinir o estado, use hot
+        // em vez disso, reinicie.
         //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
+        // Isso também funciona para código, não apenas para valores: a maioria das alterações de código podem ser
+        // testado apenas com uma recarga a quente.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
